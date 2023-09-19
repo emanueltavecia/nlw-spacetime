@@ -69,6 +69,7 @@ nav {
 .memory small {
 	color: #bebebf;
 	font-size: 0.75rem;
+	line-height: 0px;
 }
 
 .memory h1 {
@@ -135,8 +136,15 @@ aside p {
 }
 
 aside span {
+	text-align: center;
+	display: block;
 	font-size: 0.75rem;
 	color: #9e9ea0;
+	padding: 3px;
+}
+
+aside div {
+	text-align: center;
 }
 
 @media (max-width: 768px) {
