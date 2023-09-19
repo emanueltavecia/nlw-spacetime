@@ -52,7 +52,7 @@ body {
 }
 
 nav {
-	padding: 64px;
+	padding: 64px 64px 0;
 	grid-area: timeline;
 	overflow-y: scroll;
 	animation: entering 0.7s ease-in-out;
@@ -145,7 +145,7 @@ aside span {
 	}
 	body {
 		grid-template-columns: 1fr;
-		grid-template-rows: 0.2fr 0.8fr;
+		grid-template-rows: 0.2fr ;
 		grid-template-areas: "profile" "timeline";
 	}
 	aside {
